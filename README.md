@@ -114,11 +114,9 @@ cd <repo-name>
 
 
 ### 2️⃣ Install dependencies
-```bash
 pip install -r requirements.txt
 
 ### 3️⃣ Run Streamlit
-```bash
 streamlit run app.py
 
 ---
@@ -129,6 +127,7 @@ numpy
 plotly
 
 ---
+
 
 ## 👩‍💻 Author
 
