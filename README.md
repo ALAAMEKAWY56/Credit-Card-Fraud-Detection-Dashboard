@@ -140,5 +140,6 @@ https://www.linkedin.com/in/alaa-mekawi
 🔗 **GitHub:**  
 https://github.com/ALAAMEKAWY56
 
-Special thanks to @Epsilon Aifor the guidance and training.
+Special thanks to **@Epsilon-AI-Institute** for providing training and support during this project.
+
 
