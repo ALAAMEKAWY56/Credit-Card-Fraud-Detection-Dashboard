@@ -249,6 +249,21 @@ section[data-testid="stSidebar"] details > summary:hover {
     transform: translateX(3px);
 }
 
+/* BIG Section Title (Left-Aligned, Glowing, Same Style as Chart Title) */
+.big-section-title {
+    all: unset;
+    display: block;
+
+    text-align: left !important;
+
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    margin-bottom: 12px !important;
+    margin-top: 10px !important;
+
+    color: #C7BAFF !important;
+    text-shadow: 0 0 10px rgba(167, 139, 250, 0.35) !important;
+}
 
 
     </style>
@@ -1059,10 +1074,10 @@ with tab5:
     st.markdown('<div class="neon-separator"></div>', unsafe_allow_html=True)
 
 with tab_summary:
-    st.markdown('<h3 class="chart-title">Summary Dashboard</h3>', unsafe_allow_html=True)
+    st.markdown('<h3 class="big-section-title">Summary Dashboard</h3>', unsafe_allow_html=True)
 
     # --- KEY INSIGHTS SECTION ---
-    st.markdown('<h3 class="chart-title">Key Insights</h3>', unsafe_allow_html=True)
+    st.markdown('<h3 class="big-section-title">Key Insights</h3>', unsafe_allow_html=True)
 
     st.markdown("""
     #### 👥 **Customer Behavior**
@@ -1098,6 +1113,8 @@ with tab_summary:
     Fraud is not random , it follows clear patterns.  
     Understanding these trends enables smarter and more proactive fraud detection.
     """)
+
+    st.markdown('<div class="neon-separator"></div>', unsafe_allow_html=True)
 
 
 
