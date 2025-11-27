@@ -23,7 +23,7 @@ It includes:
 ├── README.md # Documentation
 └── notebook/
 └── bank_fraud_analysis.ipynb # Full analysis notebook 
-
+```
 ---
 
 ## 🛠️ Tech Stack
