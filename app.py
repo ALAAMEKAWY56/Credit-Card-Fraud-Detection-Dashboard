@@ -1059,40 +1059,12 @@ with tab5:
     st.markdown('<div class="neon-separator"></div>', unsafe_allow_html=True)
 
 with tab_summary:
-    st.markdown("##Summary Dashboard")
-
-    
-
-    # --- METRIC CARDS ---
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        st.metric(
-            label="Total Transactions",
-            value="64,832",
-            delta="Dataset Size"
-        )
-
-    with col2:
-        st.metric(
-            label="Fraud Cases",
-            value="375",
-            delta="Highly Imbalanced Dataset"
-        )
-
-    with col3:
-        st.metric(
-            label="Fraud Rate",
-            value="0.58%",
-            delta="Very Low Occurrence"
-        )
-
-    st.markdown("---")
+    st.markdown('<h3 class="chart-title">Summary Dashboard</h3>', unsafe_allow_html=True)
 
     # --- KEY INSIGHTS SECTION ---
-    st.markdown("""
-    ### 🔍 **Key Insights**
+    st.markdown('<h3 class="chart-title">Key Insights</h3>', unsafe_allow_html=True)
 
+    st.markdown("""
     #### 👥 **Customer Behavior**
     - Seniors are the most vulnerable age group.
     - Fraud amounts are usually low “test transactions”.
@@ -1111,7 +1083,7 @@ with tab_summary:
     - Winter & Spring months are peak fraud seasons.
     """)
 
-    st.markdown("---")
+    st.markdown('<div class="neon-separator"></div>', unsafe_allow_html=True)
 
     # --- RECOMMENDATIONS ---
     st.markdown("""
@@ -1123,7 +1095,7 @@ with tab_summary:
     - Enable enhanced authentication for **senior customers**.
 
     ### ⭐ **Final Takeaway**
-    Fraud is not random — it follows clear patterns.  
+    Fraud is not random , it follows clear patterns.  
     Understanding these trends enables smarter and more proactive fraud detection.
     """)
 
