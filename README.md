@@ -16,6 +16,7 @@ It includes:
 ---
 
 ## 📁 Repository Structure
+```bash
 ├── app.py # Streamlit Dashboard
 ├── clean_transactions.csv # Cleaned dataset
 ├── streamlit_dashboard.ipynb
