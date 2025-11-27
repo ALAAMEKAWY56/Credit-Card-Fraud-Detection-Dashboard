@@ -136,7 +136,7 @@ streamlit run app.py
 Data Science & AI Engineer  
 
 🔗 **LinkedIn:**  
-https://www.linkedin.com/in/alaa-mekawi  
+https://www.linkedin.com/in/alaa-mekawi-37b245221 
 
 🔗 **GitHub:**  
 https://github.com/ALAAMEKAWY56
