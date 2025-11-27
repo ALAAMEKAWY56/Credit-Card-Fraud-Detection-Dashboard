@@ -109,7 +109,7 @@ It includes:
 
 ### 1️⃣ Clone the repo
 git clone https://github.com/ALAAMEKAWY56/Credit-Card-Fraud-Detection-Dashboard.git
-cd <Credit-Card-Fraud-Detection-Dashboard>
+cd Credit-Card-Fraud-Detection-Dashboard
 
 
 ### 2️⃣ Install dependencies
