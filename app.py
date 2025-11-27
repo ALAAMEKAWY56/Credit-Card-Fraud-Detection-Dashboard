@@ -427,12 +427,13 @@ st.markdown("---")
 # ---------------------------------------------------------------
 # 8. Tabs Layout 
 # ---------------------------------------------------------------
-tab1 , tab2 , tab3 , tab4 , tab5 = st.tabs([
+tab1 , tab2 , tab3 , tab4 , tab5 , tab_summary = st.tabs([
     "Overview",
     "Customer Insights",
     "Merchant & Category Insights",
     "Geographical Analysis",
-    "Time-Based Patterns"
+    "Time-Based Patterns",
+    "Summary Dashboard"
 ])
 
 
@@ -1056,6 +1057,76 @@ with tab5:
 
     st.markdown("<br>", unsafe_allow_html=True)  # spacing between rows
     st.markdown('<div class="neon-separator"></div>', unsafe_allow_html=True)
+
+with tab_summary:
+    st.markdown("##Summary Dashboard")
+
+    
+
+    # --- METRIC CARDS ---
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.metric(
+            label="Total Transactions",
+            value="64,832",
+            delta="Dataset Size"
+        )
+
+    with col2:
+        st.metric(
+            label="Fraud Cases",
+            value="375",
+            delta="Highly Imbalanced Dataset"
+        )
+
+    with col3:
+        st.metric(
+            label="Fraud Rate",
+            value="0.58%",
+            delta="Very Low Occurrence"
+        )
+
+    st.markdown("---")
+
+    # --- KEY INSIGHTS SECTION ---
+    st.markdown("""
+    ### 🔍 **Key Insights**
+
+    #### 👥 **Customer Behavior**
+    - Seniors are the most vulnerable age group.
+    - Fraud amounts are usually low “test transactions”.
+
+    #### 🛍️ **Category & Merchant Patterns**
+    - Fraud concentrates in **grocery_pos, shopping_net, misc_net**.
+    - Certain merchants show unusually high fraud rates.
+
+    #### 📍 **Geographical Patterns**
+    - Fraud clusters in **Pennsylvania, New York, Michigan**.
+    - Long-distance transactions have higher fraud risk.
+
+    #### ⏰ **Time-Based Patterns**
+    - Fraud spikes at **night (10 PM–3 AM)**.
+    - Weekends & Mondays show higher fraud.
+    - Winter & Spring months are peak fraud seasons.
+    """)
+
+    st.markdown("---")
+
+    # --- RECOMMENDATIONS ---
+    st.markdown("""
+    ### 🛡️ **Recommendations**
+
+    - Strengthen monitoring during **night hours & weekends**.
+    - Apply **distance-based risk scoring**.
+    - Add extra checks for **high-risk merchants**.
+    - Enable enhanced authentication for **senior customers**.
+
+    ### ⭐ **Final Takeaway**
+    Fraud is not random — it follows clear patterns.  
+    Understanding these trends enables smarter and more proactive fraud detection.
+    """)
+
 
 
 st.markdown(f"""
