@@ -108,9 +108,8 @@ It includes:
 ## ▶️ How to Run the Dashboard
 
 ### 1️⃣ Clone the repo
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/ALAAMEKAWY56/Credit-Card-Fraud-Detection-Dashboard.git
+cd <Credit-Card-Fraud-Detection-Dashboard>
 
 
 ### 2️⃣ Install dependencies
@@ -118,7 +117,6 @@ pip install -r requirements.txt
 
 ### 3️⃣ Run Streamlit
 streamlit run app.py
-...
 
 ---
 ### requirements.txt
