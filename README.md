@@ -117,7 +117,8 @@ cd <repo-name>
 pip install -r requirements.txt
 
 ### 3️⃣ Run Streamlit
-streamlit run app.py...
+streamlit run app.py
+...
 
 ---
 ### requirements.txt
