@@ -121,10 +121,10 @@ streamlit run app.py
 
 ---
 ### requirements.txt
-streamlit
-pandas
-numpy
-plotly
+-streamlit
+-pandas
+-numpy
+-plotly
 
 ---
 
