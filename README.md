@@ -21,7 +21,6 @@ It includes:
 ├── clean_transactions.csv # Cleaned dataset
 ├── streamlit_dashboard.ipynb
 ├── README.md # Documentation
-└── notebook/
 └── bank_fraud_analysis.ipynb # Full analysis notebook 
 ```
 ---
